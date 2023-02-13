@@ -1,11 +1,11 @@
-*\ tabellina del sette\*
+// tabellina del sette
 #include <iostream>
-
+using namespace std;
 int main()
 {
     for (int i = 1; i <= 10; i++)
     {
-        std::cout << "7 * " << i << " = " << 7 * i << std::endl;
+       cout  << "7 * " << i << " = " << 7 * i ;
     }
     return 0;
 }
