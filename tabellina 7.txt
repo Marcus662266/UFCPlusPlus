@@ -1,3 +1,4 @@
+*\ tabellina del sette\*
 #include <iostream>
 
 int main()
