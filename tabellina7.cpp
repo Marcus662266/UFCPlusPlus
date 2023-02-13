@@ -5,7 +5,7 @@ int main()
 {
     for (int i = 1; i <= 10; i++)
     {
-       cout  << "7 * " << i << " = " << 7 * i ;
+       cout  << "7 * " << i << " = " << 7 * i << "\n";
     }
     return 0;
 }
