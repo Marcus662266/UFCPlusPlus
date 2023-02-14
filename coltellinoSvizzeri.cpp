@@ -4,7 +4,7 @@
 using namespace std;
 int main(){
 
-/*
+
 int piuGrande(int x,int y){
 
 }
@@ -15,7 +15,9 @@ double costoTotale(double prezzo, int interesse){}
 
 void buttaFuori(int eta){}
 
-void decrescente(int a,int b,int c){}
+void decrescente(int a,int b,int c){
+    
+}
 
 void stampaNome(string nome){}
 
@@ -84,6 +86,6 @@ int main() {
 }
 }
 
-*/
+
 
 }
