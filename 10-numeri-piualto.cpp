@@ -3,16 +3,17 @@ using namespace std;
 
 int main()
 {
-    int num, max_num = 0;
+    int num;
+    int maxnum = 0;
     for (int i = 1; i <= 10; i++)
     {
         cout << "Inserisci il " << i << "° numero: ";
         cin >> num;
-        if (num > max_num)
+        if (num > maxnum)
         {
-            max_num = num;
+            maxnum = num;
         }
     }
-    cout << "Il numero più grande è: " << max_num << endl;
+    cout << "Il numero più grande è: " << maxnum << endl;
     return 0;
 }
