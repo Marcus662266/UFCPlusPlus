@@ -1,11 +1,22 @@
 #include <iostream>
+#include <math.h>
+#include <string.h>
+using namespace std;
 
-int main() {
-    for (int i = 0; i <= 20; i++) {
-        if (i % 2 == 0) {
-            std::cout << i << std::endl;
-        }
+void stampaNumeriPari(int n)
+{
+    cout << "Numeri pari tra 1 e " << n << ":" << endl;
+    for (int i = 2; i <= n; i += 2)
+    {
+        cout << i << endl;
     }
+}
 
+int main()
+{
+    int n;
+    cout << "Inserisci un numero intero positivo: ";
+    cin >> n;
+    stampaNumeriPari(n);
     return 0;
 }
