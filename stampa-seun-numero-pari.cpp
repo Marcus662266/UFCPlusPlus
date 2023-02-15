@@ -1,3 +1,5 @@
+// stampa numero pari o dispari
+
 #include <iostream>
 using namespace std;
 
